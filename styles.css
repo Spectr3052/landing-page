@@ -76,3 +76,26 @@ body {
     height: 500px;
     width: auto;
 }
+
+.hero-button button{
+    display: inline-block;
+    background-color: #3882F6;
+    color: white;
+    height: 70px;
+    width: 200px;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    border: #000000;
+    border-radius: 100px;
+    cursor: pointer;
+
+    -webkit-transition: all 0.5s; /* add this line, chrome, safari, etc */
+    -moz-transition: all 0.5s; /* add this line, firefox */
+    -o-transition: all 0.5s; /* add this line, opera */
+    transition: all 0.5s; /* add this line */
+}
+
+.hero-button button:hover{
+    background-color: #2e69c9;
+}
